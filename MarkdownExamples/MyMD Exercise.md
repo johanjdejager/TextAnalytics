@@ -7,7 +7,7 @@ Leo a diam sollicitudin tempor id eu nisl nunc mi. Amet facilisis magna etiam te
 
 ~Faucibus scelerisque eleifend donec pretium.~ 
 
-lectus arcu bibendum at varius vel pharetra vel turpis nunc
+lectus arcu bibendum at varius vel pharetra vel ==turpis nunc==
 
 lectus | arcu | col 3
 :---  | :---: | ---:
@@ -15,8 +15,8 @@ bibendum | at
 varius | vel 
 pharetra | vel | Laoreet suspendisse interdum <br>consectetur libero id faucibus. 
 turpis | nunc
-[Link to somewhere](https://loremipsum.io/generator/?n=10&t=w) | |
-![absa image]()
+[Link to somewhere](https://loremipsum.io/generator/?n=10&t=w) |  a | b
+![testname](android.png) | |
 
 ## Nunc sed id semper risus in hendrerit. Nulla posuere sollicitudin aliquam ultrices. 
 
