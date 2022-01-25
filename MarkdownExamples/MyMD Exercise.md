@@ -1,6 +1,6 @@
 # Lorem ipsum dolor sit amet
 
-_**consectetur adipiscing elit**_ , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id neque aliquam vestibulum. 
+_**consectetur adipiscing elit**_ , `sed do eiusmod tempor incididunt` ut labore et dolore magna aliqua. Diam quam nulla porttitor massa id neque aliquam vestibulum. 
 Leo a diam sollicitudin tempor id eu nisl nunc mi. Amet facilisis magna etiam tempor. Posuere ac ut consequat semper viverra nam libero justo. Tortor posuere ac ut consequat. Aliquet lectus proin nibh nisl condimentum id. Aliquam vestibulum morbi blandit cursus. Scelerisque eleifend donec pretium vulputate. Volutpat est velit egestas dui id. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut. Ac tincidunt vitae semper quis lectus nulla at volutpat.
 
 > Cum *sociis* natoque **penatibus** et.
@@ -45,4 +45,30 @@ More
    1. two.one
    2. two.two
    
-id venenatis a condimentum vitae. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Lectus nulla at volutpat diam ut. Nulla facilisi cras fermentum odio eu.
+id venenatis a 
+`condimentum vitae. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed. Lectus nulla at volutpat diam ut.`
+Nulla facilisi cras fermentum odio eu.
+
+``` python
+penguins_87 = "Crosby"
+penguins_71 = "Malkin"
+penguins_59 = "Guentzel"
+# Brute force comparison (equality only)
+is_same_player = len(penguins_87) == len(penguins_59)
+if is_same_player:
+  for a, b in zip(penguins_87, penguins_59):
+    if a != b:
+      is_same_player = False
+      break
+# Direct comparison
+penguins_87 == penguins_59  # False
+penguins_87 > penguins_59  # False
+penguins_71 <= penguins_71  # True
+# Identity checking
+penguins_87 is penguins_87  # True
+penguins_71 is penguins_87  # False
+```
+
+Semper auctor neque vitae tempus quam pellentesque nec. Neque egestas congue quisque egestas diam. Orci a scelerisque purus semper eget duis. Vestibulum lectus mauris ultrices eros in. Egestas egestas fringilla phasellus faucibus scelerisque eleifend. Rhoncus est pellentesque elit ullamcorper dignissim. Sem integer vitae justo eget magna fermentum iaculis. Nisl nisi scelerisque eu ultrices vitae auctor eu. Id venenatis a condimentum vitae sapien pellentesque. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Quisque id diam vel quam elementum pulvinar. Volutpat commodo sed egestas egestas. Lacus vel facilisis volutpat est velit egestas. Odio ut enim blandit volutpat maecenas. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Id semper risus in hendrerit gravida. Lobortis mattis aliquam faucibus purus in massa tempor nec feugiat. Nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit.
+
+
