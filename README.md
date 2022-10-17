@@ -2,7 +2,7 @@
 
 This project uses Microsoft Azure's Text Analytics Cognitive Service to analyze different sets of text and extract key information that can be very important to achieve several business objectives. It is conformed of a single Python Notebook that:
 
-- Analyzes the sentiment in "_documents_"
+- Analyzes the sentiment in "_documents_",
 - Extracts key phrases and words
 - Executes some manual processing of a text file
 - Analyzes the important part of a text to extract the most used words
